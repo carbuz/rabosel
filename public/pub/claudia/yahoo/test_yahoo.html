@@ -1,0 +1,64 @@
+<html>
+<head>
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <link rel="stylesheet" type="text/css" href="mystyle.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="jquery-ui-1.11.2.custom/jquery-ui.css" media="screen" />
+  <script src="jquery-2.1.1.js"></script>
+  <script src="jquery-ui-1.11.2.custom/jquery-ui.js"></script>
+	<link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
+  <script type="text/javascript">
+      google.load('visualization', '1.0', {'packages':['corechart']});
+  </script>
+<!--<script>
+  less = {
+    env: "development",
+    async: false,
+    fileAsync: false,
+    poll: 1000,
+    functions: {},
+    dumpLineNumbers: "comments",
+    relativeUrls: false,
+    rootpath: ":/a.com/"
+  };
+</script>
+<script src="less.js-master/dist/less.js"></script>
+<link rel="stylesheet/less" type="text/css" href="mystyle.less" /> -->
+</head>
+  <body>
+    <div class="container" id="result">
+      <h1>myTicker Yahoo</h1>
+      <div class="tools">
+      <div class="toolsContainer">
+		<div id="searchBar"><input id="searchFilter" type="text" value="Filter by name"/></div>
+		</div>
+      <div class="toolsContainer">
+      <div>Sort by Ask</div>
+      <div><button class="sortByLowPrice"><i class='fa fa-chevron-up'></i></button>
+      <button class="sortByHighPrice"><i class='fa fa-chevron-down'></i></button></div>
+      </div>
+      <div class="toolsContainer"> 
+      <div>Remove all</div>
+      <button class="removeAll"><i class='fa fa-trash'></i></button>
+      <button class="checkLimits"><i class='fa fa-check'></i></button>
+      <!--<input class="extraField" type="text"/>-->
+      <select class="extraField"><option class="selectExtra">Select</option><option class="selectOption">Currency</option>
+      <option class="selectOption">PercentChange</option></select>
+      <button class="drawPieChart">PieChart</button>
+      <button class="drawLineChart">LineChart</button>
+      </div>
+      <div class="toolsContainer"> 
+      <div>AutoUpdate</div>
+      <button class="setAutoUpdate"><i class='fa fa-refresh'></i></button>
+      </div>
+      </div>
+      <div id="todo">
+        <input id="titleinput" type="text" value="Insert ticker" class="data-text">
+        <table id="tickerList"></table>
+                    <div id="chart_div"></div>
+        <div id="counter"></div>
+        <div id="activeCounter"></div>
+      </div>
+    </div>
+    <script src="yahoo_todo.js"></script>
+  </body>
+  </html>
