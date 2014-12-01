@@ -1,0 +1,26 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="mystyle.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="jquery-ui-1.11.2.custom/jquery-ui.css" media="screen" />
+  <script src="jquery-2.1.1.js"></script>
+  <script src="jquery-ui-1.11.2.custom/jquery-ui.js"></script>
+  <script src="colpick/js/colpick.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="colpick/css/colpick.css" type="text/css"/></head><body>
+    <div class="container" id="result">
+      <h1>Todo</h1>
+      <div class="tools">
+      <button class="sortByDate">Sort by recent date</button>      
+      <button class="removeAll">Remove all</button>
+      <div class="searchBar"><input class="searchFilter" type="text" /></div>
+      </div>
+      <div id="todo">
+        <input id="todoinput" type="text" value="" class="data-text">
+        <ul id="list"></ul>
+        <div id="counter"></div>
+        <div id="activeCounter"></div>
+      </div>
+      <ul id="listNew"></ul>
+    </div>
+    <script src="button.js"></script>
+  </body>
+  </html>
