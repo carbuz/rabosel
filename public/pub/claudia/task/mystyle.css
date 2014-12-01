@@ -1,0 +1,107 @@
+body {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+.container {
+  width: 100%;
+  text-align: left;
+}
+
+.container ul {
+  padding-left: 0px;
+}
+
+.container ul li {
+  list-style-type: none;
+  height: 35px;
+  border-bottom: 1px solid #ddd;
+  display: block;
+}
+
+.container ul li span {
+ padding-top: 10px;
+}
+
+input.checkbox {
+  margin-top: 12px;
+  margin-right: 5px;
+}
+
+.container ul li div {
+ float: left;
+}
+
+ .check  {
+text-decoration: line-through;
+}
+
+span.remove {
+  text-align: right;
+  cursor: hand;
+  padding-left: 10px;
+  float: right;
+}
+
+#todoinput {
+  padding: 5px;
+  width: 100%;
+}
+
+.color-box {
+  display: inline-block;
+	width: 18px;
+	height: 33px;
+	margin-right: 5px;
+	border: 1px solid #aaa;
+}
+
+.li-text {
+  text-align: left;
+
+}
+
+.datepick {
+  display: inline-block;
+}
+
+.datepicker {
+  display: inline-block;
+  height: 100%;
+  font-size: 13px;
+  width: 55px;
+  text-align: center;
+
+}
+
+div.tools {
+width: 100%;
+background: #DB7467;
+max-height: 40px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+button {
+  cursor: hand;
+  background: #C54F40;
+  color: white;
+  height: 40px;
+  border: none;
+}
+
+.searchBar {
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#taskEdit {
+  display: none;
+}
+
+

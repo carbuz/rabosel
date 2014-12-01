@@ -1,0 +1,196 @@
+body {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+.container {
+  width: 100%;
+  text-align: left;
+}
+
+.container ul {
+  padding-left: 0px;
+}
+
+.container ul li {
+  list-style-type: none;
+  height: 35px;
+  border-bottom: 1px solid #ddd;
+  display: block;
+}
+
+.container ul li span {
+ padding-top: 10px;
+}
+
+input.checkbox {
+  margin-top: 12px;
+  margin-right: 5px;
+}
+
+.container ul li div {
+ float: left;
+}
+
+ .check  {
+text-decoration: line-through;
+}
+
+span.remove {
+  text-align: right;
+  cursor: hand;
+  padding-left: 10px;
+  float: right;
+}
+
+#titleinput {
+  padding: 5px;
+  width: 100%;
+}
+
+.color-box {
+  display: inline-block;
+	width: 18px;
+	height: 33px;
+	margin-right: 5px;
+	border: 1px solid #aaa;
+}
+
+.li-text {
+  text-align: left;
+
+}
+
+.datepick {
+  display: inline-block;
+}
+
+.datepicker {
+  display: inline-block;
+  height: 100%;
+  font-size: 13px;
+  width: 55px;
+  text-align: center;
+
+}
+
+div.tools {
+width: 100%;
+background: #DB7467;
+height: 40px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+}
+
+button {
+  cursor: hand;
+  background: #C54F40;
+  color: white;
+  border: none;
+}
+
+#searchBar {
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#taskEdit {
+  display: none;
+}
+
+#tickerList td {
+  padding: 10px;
+  width: 100%;
+  border-bottom: 1px solid #555;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+#tickerList tr {
+  border-bottom: 1px solid #555;
+}
+
+#tickerList th {
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+}
+
+.firstTicker {
+  color: #46AE30;
+}
+
+.lastTicker {
+  color: red;
+}
+
+.removeTicker i {
+  cursor: pointer;
+}
+
+.ui-widget {
+  font-size: 12px !important;
+}
+
+.toolsContainer {
+  font-size: 14px;
+  height: 40px;
+  float: left;
+  padding-left: 10px; 
+  padding-right: 10px;
+}
+}
+
+.toolsContainer button {
+  height: auto;
+}
+
+.tickerLimit {
+border: none;
+width: 50px;
+margin-left: 5px;
+}
+
+.insertLimit {
+  width: 140px;
+  float: left;
+}
+
+.insertLimit form {
+  display: inline-block;
+  float: left;
+    font-size: 14px;
+
+}
+
+.insertLimit form input {
+  margin-left: 5px;
+}
+
+.insertLimit {
+  display: inline-block;
+  float: left;
+}
+
+.tickerName {
+  display: none;
+}
+
+.warningLimit {
+  background-color: rgb(215, 79, 79);
+}
+
+
